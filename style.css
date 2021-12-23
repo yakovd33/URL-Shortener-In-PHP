@@ -1,0 +1,55 @@
+body {
+    background-color: #34388c;
+}
+
+#tiny-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#tiny-form input {
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    outline: none;
+}
+
+#tiny-form input[type="submit"] {
+    background-color: #ffb900;
+    color: #fff;
+    cursor: pointer;
+}
+
+#tiny-form #url-input {
+    width: 350px;
+}
+
+#tiny-feedback {
+    color: #fff;
+}
+
+#link-copy {
+    margin-top: 10px;
+    display: none;
+}
+
+#link-copy #copy-btn {
+    background-color: #fff;
+}
+
+#link-text-to-copy {
+    border: 1px solid #6c757d !important;
+    border-left: none !important;
+    border-radius: 0 4px 4px 0;
+}
+
+#link-copy input {
+    padding: 4px 6px;
+    overflow: hidden;
+}
+
+#copy-btn:hover {
+    color: #444;
+}
